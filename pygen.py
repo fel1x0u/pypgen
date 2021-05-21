@@ -1,4 +1,5 @@
 import random
+
 print("██╗     ██╗   ██╗████████╗███████╗    ██████╗  █████╗ ███████╗███████╗     ██████╗ ███████╗███╗   ██╗")
 print("██║     ██║   ██║╚══██╔══╝██╔════╝    ██╔══██╗██╔══██╗██╔════╝██╔════╝    ██╔════╝ ██╔════╝████╗  ██║")
 print("██║     ██║   ██║   ██║   ███████╗    ██████╔╝███████║███████╗███████╗    ██║  ███╗█████╗  ██╔██╗ ██║")
@@ -7,34 +8,34 @@ print("███████╗╚██████╔╝   ██║   ██�
 print("╚══════╝ ╚═════╝    ╚═╝   ╚══════╝    ╚═╝     ╚═╝  ╚═╝╚══════╝╚══════╝     ╚═════╝ ╚══════╝╚═╝  ╚═══╝")                                                                                               
 stuff = ("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789{[}]:;'.,/")
 while 1:
-  morect = 1
-  while morect <= 1.5:
+  loopforinput = 1
+  while loopforinput <= 1.5:
    try:
-    morectf = int(input("How long you want the pass / passes to be? : "))
-    morect += 1
+    pass_len = int(input("How long you want the pass / passes to be? : "))
+    loopforinput += 1
    except ValueError:
      print("Please enter a numeric value.")
 
-  fat = str(input("Do you need multiple passes? Y/N : "))
-  if fat.lower() == "y":
-    stuffnshit = 1
-    while stuffnshit <= 1.5:
+  multiplepassq = str(input("Do you need multiple passes? Y/N : "))
+  if multiplepassq.lower() == "y":
+    loopforinput2 = 1
+    while loopforinput2 <= 1.5:
      try:
-      big = int(input("How many passes? : "))
-      stuffnshit += 1
+      howmanypass = int(input("How many passes? : "))
+      loopforinput2 += 1
      except ValueError:
        print("Please enter a numeric value.")
     print("Ok!")
-    for x in range(0, big):
-     balled = ""
-     for x in range(0, morectf):
-      stuffed = random.choice(stuff)
-      balled   = balled + stuffed
-     print("Password : ", balled)
-  if fat.lower() == "n":
+    for x in range(0, howmanypass):
+     password2 = ""
+     for x in range(0, pass_len):
+      grabletter = random.choice(stuff)
+      password2   = password2 + grabletter
+     print("Password : ", password2)
+  if multiplepassq.lower() == "n":
      print("Ok!")
-     ball = ""
-     for x in range(0, morectf):
-      stuffed = random.choice(stuff)
-      ball   = ball + stuffed
-     print("Password : ", ball)
+     password = ""
+     for x in range(0, pass_len):
+      grabletter = random.choice(stuff)
+      password  = password + grabletter
+     print("Password : ", password)
