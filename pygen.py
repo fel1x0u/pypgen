@@ -5,36 +5,36 @@ print("██║     ██║   ██║   ██║   ███████�
 print("██║     ██║   ██║   ██║   ╚════██║    ██╔═══╝ ██╔══██║╚════██║╚════██║    ██║   ██║██╔══╝  ██║╚██╗██║")
 print("███████╗╚██████╔╝   ██║   ███████║    ██║     ██║  ██║███████║███████║    ╚██████╔╝███████╗██║ ╚████║")
 print("╚══════╝ ╚═════╝    ╚═╝   ╚══════╝    ╚═╝     ╚═╝  ╚═╝╚══════╝╚══════╝     ╚═════╝ ╚══════╝╚═╝  ╚═══╝")                                                                                               
-shit = ("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789{[}]:;'.,/")
+stuff = ("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789{[}]:;'.,/")
 while 1:
-  shitballs = 1
-  while shitballs <= 1.5:
+  morect = 1
+  while morect <= 1.5:
    try:
-    fag = int(input("How long you want the pass / passes to be? : "))
-    shitballs += 1
+    morectf = int(input("How long you want the pass / passes to be? : "))
+    morect += 1
    except ValueError:
      print("Please enter a numeric value.")
 
-  fatcock = str(input("Do you need multiple passes? Y/N : "))
-  if fatcock.lower() == "y":
-    shitcock = 1
-    while shitcock <= 1.5:
+  fat = str(input("Do you need multiple passes? Y/N : "))
+  if fat.lower() == "y":
+    stuffnshit = 1
+    while stuffnshit <= 1.5:
      try:
-      bigbootybitches = int(input("How many passes? : "))
-      shitcock += 1
+      big = int(input("How many passes? : "))
+      stuffnshit += 1
      except ValueError:
        print("Please enter a numeric value.")
     print("Ok!")
-    for x in range(0, bigbootybitches):
-     ballsed = ""
+    for x in range(0, big):
+     balled = ""
      for x in range(0, fag):
-      shitassed = random.choice(shit)
-      ballsed   = ballsed + shitassed
-     print("Password : ", ballsed)
-  if fatcock.lower() == "n":
+      stuffed = random.choice(shit)
+      balled   = balled + stuffed
+     print("Password : ", balled)
+  if fat.lower() == "n":
      print("Ok!")
-     balls = ""
-     for x in range(0, fag):
-      shitassed = random.choice(shit)
-      balls   = balls + shitassed
-     print("Password : ", balls)
+     ball = ""
+     for x in range(0, morectf):
+      stuffed = random.choice(stuff)
+      ball   = ball + stuffed
+     print("Password : ", ball)
