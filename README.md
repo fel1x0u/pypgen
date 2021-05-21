@@ -1,2 +1,2 @@
 # pypgen
-python password generator 
+just generates passwords of any length 
