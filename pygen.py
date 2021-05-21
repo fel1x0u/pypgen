@@ -27,8 +27,8 @@ while 1:
     print("Ok!")
     for x in range(0, big):
      balled = ""
-     for x in range(0, fag):
-      stuffed = random.choice(shit)
+     for x in range(0, morectf):
+      stuffed = random.choice(stuff)
       balled   = balled + stuffed
      print("Password : ", balled)
   if fat.lower() == "n":
